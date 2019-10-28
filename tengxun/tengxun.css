@@ -1,0 +1,1184 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.shang{
+    margin: 0 auto;
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    min-height: 80px;
+    width: 1400px;
+}
+.shang .tu{
+    position: relative;
+}
+.shang .tu img{
+    top: -16px;
+    position: absolute;
+    width: 131px;
+}
+.shang .biao{
+    width: 500px;
+    height: 32px;
+    line-height: 32px;
+    padding: 0 0 0 25px;
+    background-color: #f3f6f8;
+    border: 1px solid #dfdfdf;
+    border-radius: 20px;
+    position: relative;
+}
+.shang .biao .wang{
+    font-size: 14px;
+    color: #404040;
+    margin-right: 25px;
+}
+.shang .biao .tu{
+    width: 10px;
+    height: 6px;
+    background: url(./img/5.png)0px 0px;
+    position: absolute;
+    margin:0 10px;
+    top: 13px;
+    left: 50px;
+}
+.shang .biao input{
+    outline: none;
+    height: 30px;
+    width: 330px;
+    border: 0px;
+    background-color: #f3f6f8;
+}
+.shang .biao button{
+    position: absolute;
+    top: -1px;
+    right: 0px;
+    padding: 0 15px;
+    background-color: #1479d7;
+    border: 0px;
+    color: #fff;
+    border-radius: 20px;
+    height: 34px;
+    font-size: 16px;
+    line-height: 34px;
+}
+.shang .kjian{
+    position: relative;
+}
+.shang .kjian .k{
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    top: -15px;
+    right: 95px;
+    background: url(./img/2.png)0px -95px;
+}
+.shang .kjian .y{
+    position: absolute;
+    width: 35px;
+    height: 30px;
+    top: -15px;
+    right: 55px;
+    background: url(./img/2.png)0px -190px;
+}
+.shang .kjian .dr{
+    position: absolute;
+    padding: 1px;
+    width: 35px;
+    height: 35px;
+    top: -15px;
+    line-height: 35px;
+    right: 15px;
+    text-align: center;
+    color: #60a5e4;
+    background-color: #f5f5f5;
+    font-size: 14px;
+}
+.dao{
+    position: relative;
+    margin: 0 auto 30px auto;
+    display: flex;
+    align-items:center;
+    width: 1400px;
+    background-color: #1479d7;
+    height: 50px;
+    color: #FFF;
+}
+.dao .daohang{
+    text-align: center;
+    width: 79px;
+}
+.dao .daotiao{
+    margin-left: 20px;
+    display: flex;
+    align-items:center;
+    justify-content:space-around;
+}
+.dao .jdui{
+    width: 10px;
+    height: 6px;
+    background: url(./img/6.png)0px 0px;
+    position: absolute;
+    margin:0 10px;
+    right: 33px;
+    top: 23px;
+}
+.dao .daohang1{
+    width: 79px;
+    text-align: center;
+}
+.zhong{
+    height: 75px;
+    width: 1400px;
+    margin: 0 auto 20px auto;
+}
+.zhong .tu1{
+    float: left;
+}
+.zhong .tu2{
+    float: right;
+}
+.weng{
+    margin: 0 auto;
+    width: 1400px;
+    display: flex;
+}
+.weng .yiceng{
+    width: 440px;
+    margin-right: 40px;
+}
+.weng .yiceng1{
+    width: 440px;
+}
+.weng .yiceng .tou{
+    width: 440px;
+    height: 44px;
+    border-bottom: 1px solid #cae0f3;
+}
+.weng .yiceng .tou .zuo {
+    font-size: 20px;
+    float: left;
+    height: 44px;
+    width: 300px;
+}
+.weng .yiceng .tou .zuo .yao{
+    float: left;
+    height: 44px;
+    line-height: 40px;
+    color: #1479d7;
+    padding-right: 20px;  
+}
+.weng .yiceng .tou .zuo .xian{
+    margin-top: 10px;
+    width: 0px;
+    float: left;
+    height: 20px;
+    border-right: 1px solid #e1e1e1;
+}
+.weng .yiceng .tou .zuo .yao span{
+    padding-bottom: 10px; 
+    border-bottom: 4px solid #1479d7;
+}
+.weng .yiceng .tou .zuo .shangh{
+    height: 44px;
+    line-height: 40px;
+    margin-left: 20px;
+    width: 80px;
+    float: left;
+}
+.weng .yiceng .tou .you {
+    font-size: 20px;
+    float: right;
+    line-height: 40px;
+    height: 44px;
+}
+.weng .yiceng .tou .you .shangh{
+    font-size: 20px;
+    float: left;
+    height: 44px;
+    font-size: 12px;
+}
+.weng .yiceng .tou .you .tupian{
+    font-size: 20px;
+    margin:5px 16px 0 10px;
+    width: 22px;
+    height: 22px;
+    float: left;
+    height: 44px;
+}
+.weng .yiceng .tou .you .du{
+    font-size: 20px;
+    float: left;
+    height: 44px;
+    font-size: 12px;
+}
+.weng .nei .ding{
+    padding: 14px 0 7px 0;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.weng .nei .ding2{
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.weng .nei .ding1{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.weng .nei .ding2:visited,.weng .nei .ding2:active,.weng .nei .ding2:link{
+    font-size: 18px;
+    margin-right: 20px;
+    color: #333;
+}
+.weng .nei .ding2:hover{
+    margin-right: 20px;
+    color: blue;
+}
+.weng .nei .ding a:visited,.weng .nei .ding a:active,.weng .nei .ding a:link{
+    font-size: 18px;
+    color: #333;
+}
+.weng .nei .ding a:hover{
+    color: blue;
+}
+.weng .nei .ding1 a:visited,.weng .nei .ding1 a:active,.weng .nei .ding1 a:link{
+    color: #333;
+}
+.weng .nei .ding5:visited,.weng .nei .ding5:active,.weng .nei .ding5:link{
+    color: #333;
+}
+.weng .nei .ding5{
+    margin-left: 20px;
+}
+.weng .nei .dddd{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.weng .nei .ding5:hover{
+    color: blue;
+}
+.weng .nei .ding1 a:hover{
+    color: blue;
+}
+.weng .nei .ding4:visited,.weng .nei .ding4:active,.weng .nei .ding4:link{
+    color: #333;
+}
+.weng .nei .ding4:hover{
+    color: blue;
+}
+.weng .nei{
+    line-height: 36px;
+    position: relative;
+}
+.weng .nei .di{
+    margin-top: 20px;
+}
+.weng .nei .di .tu img{
+    height:120px;
+    width: 210px;
+    border-radius: 4px;
+}
+.weng .nei .di .tu{
+    width: 210px;
+    float: left;
+}
+.weng .nei .di .diweng{
+    float: right;
+    line-height: 30px;
+    width: 210px;
+}
+.weng .nei .yiny{
+    position: relative;
+}
+.weng .nei .dingwei2{
+    position: absolute;
+    bottom: -105px;
+    left: 10px;
+    width: 36px;
+    height: 32px;
+    background: url(./img/2.png) 50px -598px;
+}
+.weng .nei .di .diweng{
+    float: right;
+    line-height: 30px;
+    width: 210px;
+}
+.weng .nei .di .diweng a:link,.weng .nei .di .diweng a:visited,.weng .nei .di .diweng a:active{
+    color: #333;
+}
+.weng .nei .di .diweng a:hover{
+    color: blue;
+}
+a:link{
+    text-decoration:none;
+}
+a:visited{
+    text-decoration:none;
+}
+a:hover{
+    text-decoration:none;
+}
+a:active{
+    text-decoration:none;
+}
+.weng .nei .tua{
+    width: 170px;
+    height: 50px;
+}
+.weng .nei .tub{
+    float: right;
+    margin-top: 25px;   
+    width: 220px;
+    overflow: hidden;
+    height: 5px;
+}
+.weng .nei .tuc{
+    float: left;
+    width:210px ;
+}
+.weng .nei .tuc img{
+    width:210px ;
+    border-radius: 4px;
+}
+.weng .nei .tuweng{
+    float: right;
+    width:210px ;
+}
+.weng .nei .xiaodao{
+    height: 50px;
+}
+.weng .yiceng1 .shang{
+    width: 440px;
+    border: 1px solid #cae0f3;
+}
+.weng .yiceng1 .shang .tou1{
+    width: 440px;
+    height: 164px;
+    display: flex;
+    flex-direction: column;
+}
+.weng .yiceng1 .shang .nei2{
+    width: 420px;
+    height: 40px;
+    margin:0 auto;
+    padding: 0 10px;
+    border-bottom: 1px solid #cae0f3;
+}
+.weng .yiceng1 .shang .nei3{
+    width: 420px;
+    height: 40px;
+    margin:0 auto;
+    padding: 0 10px;
+}
+.weng .yiceng1 .shang .nei1{
+    justify-content: space-between;
+    width: 390px;
+    height: 40px;
+    margin-top: 10px;
+    line-height: 22px;
+    display: flex;
+    position: relative;
+    font-size: 14px;
+}
+.weng .yiceng1 .shang .nei1 .tur{
+    width: 20px;
+    top: 0px;
+    right: -30px;
+    height: 25px;
+    position: absolute;
+    background: url(./img/2.png)-17px -297px;
+}
+.weng .yiceng1 .shang .nei1 .tur1{
+    width: 20px;
+    top: 0px;
+    right: -30px;
+    height: 25px;
+    position: absolute;
+    background: url(./img/2.png)-17px -346px;
+}
+.weng .yiceng1 .shang .nei1 .tur2{
+    width: 20px;
+    top: 0px;
+    right: -30px;
+    height: 25px;
+    position: absolute;
+    background: url(./img/2.png)-17px -394px;
+}
+.weng .yiceng1 .shang .nei1 .tur3{
+    width: 20px;
+    top: 0px;
+    right: -30px;
+    height: 25px;
+    position: absolute;
+    background: url(./img/2.png)-17px -448px;
+}
+.weng .yiceng1 .shang .nei1 .rong1 a{
+    background-color: #b5ccec;
+    padding: 3px 10px;
+    border-radius: 12px;
+}
+.weng .yiceng1 a:visited,.weng .yiceng1 a:active,.weng .yiceng1 a:link{
+    color: #64788c;
+}
+.weng .yiceng1 a:hover{
+    color: blue;
+}
+.weng .yiceng1 .rong1 a:visited,.weng .yiceng1 .rong1 a:active,.weng .yiceng1 .rong1 a:link{
+    color: #fff;
+}
+.weng .yiceng1 .rong1 a:hover{
+    color: blue;
+}
+.weng .yiceng1 .xia .tou{
+    width: 440px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    height: 44px;
+    margin-top: 10px;  
+    border-bottom: 1px solid #cae0f3;
+}
+.weng .yiceng1 .xia .tou .zuo{
+    font-size: 20px;
+    float: left;
+    height: 44px;
+    float: left;
+    height: 44px;
+    line-height: 40px;
+    color: #1479d7;
+    padding-top: 5px;  
+    width: 110px;
+}
+.weng .yiceng1 .xia .tou .zuo span{
+    border-bottom: 4px solid #1479d7;
+    padding-bottom: 5px;
+}
+.weng .yiceng1 .xia .tou .you{
+    float: right;
+    line-height: 44px;
+    font-size: 14px;
+    max-height: 44px;
+    max-width: 320px;
+    height: 44px;
+    color: #3d82f8;
+    padding-right: 20px;
+    padding-top: 5px;  
+    position: relative;
+}
+.weng .yiceng1 .xia .tou .you .qi{
+    padding-right: 10px;
+    border-right:1px solid #e1e1e1;
+    font-size: 15px;
+}
+.weng .yiceng1 .xia .tou .you .guang{
+    padding-left: 10px;
+}
+.weng .yiceng1 .xia .tou .tujian{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    right: 0px;
+    top: 15px;
+    background: url(./img/2.png)-120px -995px;
+}
+.weng .yiceng1 .di{
+    margin-top: 25px;
+    position: relative;
+}
+.weng .yiceng1 .di img{
+    -webkit-border-radius: 4px;
+    width: 440px;
+}
+.dao .daotiao .daohang span:hover{
+    background: #fff;
+    color: #1479d7;
+    padding: 5px;
+}
+.shang .kjian .k:hover{
+    background: url(./img/2.png)0px -145px;
+}
+.shang .kjian .y:hover{
+    background: url(./img/2.png)0px -240px;
+}
+.shang .kjian .dr:hover{
+    border: 1px solid #60a5e4;
+    padding: 0px;
+}
+.weng  .yiceng1 .di .jdtu{
+    position: absolute;
+    bottom: 41px;
+    left: 27px;
+    width: 36px;
+    height: 32px;
+    background: url(./img/2.png) 50px -598px;
+}
+.weng  .yiceng1 .di .jdw{
+    position: absolute;
+    left: 15px;
+    bottom: 0;
+    width: 100%;
+    padding: 10px 0 10px 15px;
+    box-sizing: border-box;
+    color: #FFF;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+.weng .yiceng1 .tou1 .jdj{
+    position: absolute;
+    top: -1px;
+    left: -17px;
+    width: 15px;
+    height: 40px;
+    border: 1px solid #cae0f3;
+}
+.weng .yiceng1 .tou1 .jdjd{
+    position: absolute;
+    left: 3px;
+    top: 11px;
+    width: 8px;
+    height: 14px;
+    background: url(./img/2.png) 93px -847px;
+}
+.weng .yiceng1 .tou1 .jdj:hover{
+    background-color: #1479d7;
+    border: 1px solid #1479d7;
+}
+.weng .yiceng1 .tou1 .jdj:hover .jdjd{
+    background: url(./img/2.png) 93px -896px;
+}
+.weng .yiceng1 .tou1{
+    position: relative;
+}
+.weng .yiceng .nei  span{
+    color: #e9e9e9;
+}
+@media(max-width:1400px){
+    .shang{
+        min-height: 80px;
+        width: 1200px;
+    }
+    .shang .tu img{
+        top: -16px;
+        position: absolute;
+        width: 131px;
+    }
+    .shang .biao{
+        width: 500px;
+        height: 32px;
+        line-height: 32px;
+        padding: 0 0 0 25px;
+        border-radius: 20px;
+    }
+    .shang .biao .wang{
+        font-size: 14px;
+        margin-right: 25px;
+    }
+    .shang .biao .tu{
+        width: 10px;
+        height: 6px;
+        margin:0 10px;
+        top: 13px;
+        left: 50px;
+    }
+    .shang .biao input{
+        height: 30px;
+        width: 330px;
+        border: 0px;
+    }
+    .shang .biao button{
+        top: -1px;
+        right: 0px;
+        padding: 0 15px;
+        border: 0px;
+        border-radius: 20px;
+        height: 34px;
+        font-size: 16px;
+        line-height: 34px;
+    }
+    .shang .kjian .k{
+        width: 35px;
+        height: 30px;
+        top: -15px;
+        right: 95px;
+    }
+    .shang .kjian .y{
+        width: 35px;
+        height: 30px;
+        top: -15px;
+        right: 55px;
+    }
+    .shang .kjian .dr{
+        padding: 1px;
+        width: 35px;
+        height: 35px;
+        top: -15px;
+        line-height: 35px;
+        right: 15px;
+        font-size: 14px;
+    }
+    .dao{
+        width: 1200px;
+        height: 50px;
+    }
+    .dao .daohang{
+        width: 67px;
+    }
+    .dao .daotiao{
+        margin-left: 20px;
+    }
+    .dao .jdui{
+        width: 10px;
+        height: 6px;
+        margin:0 10px;
+        right: 23px;
+        top: 23px;
+    }
+    .dao .daohang1{
+        width: 79px;
+    }
+    .zhong{
+        height: 65px;
+        width: 1200px;
+    }
+    .zhong .tu1 img{
+width: 800px;
+height: 65px;
+    }
+    .zhong .tu2 img{
+        width: 370px;
+        height: 65px;
+    }
+    .weng{
+        width: 1200px;
+    }
+    .weng .yiceng{
+        width: 385px;
+        margin-right: 30px;
+    }
+    .weng .yiceng1{
+        width: 385px;
+    }
+    .weng .yiceng .tou{
+        width: 385px;
+        height: 44px;
+    }
+    .weng .yiceng .tou .zuo {
+        font-size: 18px;
+        height: 44px;
+        width: 250px;
+    }
+    .weng .yiceng .tou .zuo .yao{
+        height: 44px;
+        line-height: 40px;
+        padding-right: 20px;  
+    }
+    .weng .yiceng .tou .zuo .xian{
+        margin-top: 10px;
+        width: 0px;
+        height: 20px;
+    }
+    .weng .yiceng .tou .zuo .yao span{
+        padding-bottom: 10px; 
+    }
+    .weng .yiceng .tou .zuo .shangh{
+        height: 44px;
+        line-height: 40px;
+        margin-left: 20px;
+        width: 80px;
+    }
+    .weng .yiceng .tou .you {
+        font-size: 18px;
+        line-height: 40px;
+        height: 44px;
+    }
+    .weng .yiceng .tou .you .shangh{
+        font-size: 28px;
+        height: 44px;
+        font-size: 12px;
+    }
+    .weng .yiceng .tou .you .tupian{
+        font-size: 18px;
+        margin:5px 16px 0 10px;
+        width: 22px;
+        height: 22px;
+        height: 44px;
+    }
+    .weng .yiceng .tou .you .du{
+
+        height: 44px;
+        font-size: 12px;
+    }
+    .weng .nei .ding{
+        padding: 14px 0 7px 0;
+    }
+    .weng .nei .ding2:visited,.weng .nei .ding2:active,.weng .nei .ding2:link{
+        font-size: 17px;
+        margin-right: 20px;
+    }
+    .weng .nei .ding2:hover{
+        margin-right: 20px;
+    }
+    .weng .nei .ding a:visited,.weng .nei .ding a:active,.weng .nei .ding a:link{
+        font-size: 17px;
+    }
+    .weng .nei .ding1 a:visited,.weng .nei .ding1 a:active,.weng .nei .ding1 a:link{
+        font-size: 14px;
+    }
+    .weng .nei .ding5{
+        margin-left: 20px;
+        font-size: 14px;
+    }
+    .weng .nei{
+        line-height: 36px;
+    }
+    .weng .nei .di{
+        margin-top: 20px;
+    }
+    .weng .nei .di .tu img{
+        height:100px;
+        width: 190px;
+        border-radius: 4px;
+    }
+    .weng .nei .di .tu{
+        width: 150px;
+    }
+    .weng .nei .di .diweng{
+        line-height: 30px;
+        width: 170px;
+    }
+    .weng .nei .dingwei2{
+        bottom: -105px;
+        left: 10px;
+        width: 36px;
+        height: 32px;
+    }
+    .weng .nei .tua{
+        width: 170px;
+        height: 50px;
+    }
+    .weng .nei .tub{
+        margin-top: 25px;   
+        width: 180px;
+        height: 5px;
+    }
+    .weng .nei .tuc{
+        width:180px ;
+    }
+    .weng .nei .tuc img{
+        width:180px ;
+        border-radius: 4px;
+    }
+    .weng .nei .tuweng{
+        width:180px ;
+    }
+    .weng .nei .xiaodao{
+        height: 50px;
+    }
+    .weng .yiceng1 .shang{
+        width: 370px;
+        margin: 0;
+    }
+    .weng .yiceng1 .shang .tou1{
+        width: 370px;
+        height: 164px;
+    }
+    .weng .yiceng1 .shang .nei2{
+        width: 350px;
+        height: 40px;
+        padding: 0 10px ;
+    }
+    .weng .yiceng1 .shang .nei3{
+        width: 350px;
+        height: 40px;
+        padding: 0 10px ;
+    }
+    .weng .yiceng1 .shang .nei1{
+        width: 320px;
+        height: 40px;
+        margin-top: 10px;
+        line-height: 22px;
+        font-size: 12px;
+    }
+    .weng .yiceng1 .shang .nei1 .tur{
+        width: 20px;
+        top: 0px;
+        right: -30px;
+        height: 25px;
+    }
+    .weng .yiceng1 .shang .nei1 .tur1{
+        width: 20px;
+        top: 0px;
+        right: -30px;
+        height: 25px;
+    }
+    .weng .yiceng1 .shang .nei1 .tur2{
+        width: 20px;
+        top: 0px;
+        right: -30px;
+        height: 25px;
+    }
+    .weng .yiceng1 .shang .nei1 .tur3{
+        width: 20px;
+        top: 0px;
+        right: -30px;
+        height: 25px;
+    }
+    .weng .yiceng1 .shang .nei1 .rong1 a{
+        padding: 3px 10px;
+        border-radius: 12px;
+    }
+    .weng .yiceng1 .xia .tou{
+        width: 370px;
+        height: 44px;
+        margin-top: 10px;  
+    }
+    .weng .yiceng1 .xia .tou .zuo{
+        font-size: 18px;
+        height: 44px;
+        line-height: 40px;
+        padding-top: 5px;  
+        width: 80px;
+    }
+    .weng .yiceng1 .xia .tou .zuo span{
+        padding-bottom: 5px;
+    }
+    .weng .yiceng1 .xia .tou .you{
+        line-height: 44px;
+        font-size: 12px;
+        height: 44px;
+        width: 240px;
+        height: 44px;
+        padding-right: 20px;
+        padding-top: 5px;  
+    }
+    .weng .yiceng1 .xia .tou .you .qi{
+        padding-right: 10px;
+        font-size: 15px;
+    }
+    .weng .yiceng1 .xia .tou .you .guang{
+        padding-left: 10px;
+    }
+    .weng .yiceng1 .xia .tou .tujian{
+        width: 20px;
+        height: 20px;
+        right: 0px;
+        top: 17px;
+    }
+    .weng .yiceng1 .di{
+        margin-top: 25px;
+    }
+    .weng .yiceng1 .di img{
+        -webkit-border-radius: 4px;
+        width: 372px;
+        height: 230px;
+    }
+    .dao .daotiao .daohang span:hover{
+        padding: 5px;
+    }
+    .shang .kjian .dr:hover{
+        padding: 0px;
+    }
+    .weng  .yiceng1 .di .jdtu{
+        bottom: 30px;
+        left: 20px;
+        width: 36px;
+        height: 32px;
+    }
+    .weng  .yiceng1 .di .jdw{
+        left: 5px;
+        bottom: 0;
+        width: 100%;
+        padding: 10px 0 10px 15px;
+        font-size: 15px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
+@media(max-width:1200px){
+    .shang{
+        min-height: 60px;
+        width: 1000px;
+    }
+    .dao{
+        width: 1000px;
+        height: 40px;
+    }
+    .dao .daohang{
+        width: 55px;
+    }
+    .dao .daotiao{
+        margin-left: 20px;
+    }
+    .dao .jdui{
+        width: 10px;
+        height: 6px;
+        margin:0 10px;
+        right: 23px;
+        top: 18px;
+    }
+    .dao .daohang1{
+        width: 55px;
+        font-size: 16px;
+    }
+    .zhong{
+        height: 65px;
+        width: 1000px;
+    }
+    .zhong .tu1 img{
+width: 700px;
+height: 55px;
+    }
+    .zhong .tu2 img{
+        width: 280px;
+        height: 55px;
+    }
+    .weng{
+        width: 1000px;
+    }
+    .weng .yiceng{
+        width: 340px;
+        margin-right: 20px;
+    }
+    .weng .yiceng1{
+        width: 340px;
+    }
+    .weng .yiceng .tou{
+        width: 340px;
+        height: 40px;
+    }
+    .weng .yiceng .tou .zuo {
+        font-size: 20px;
+        height: 40px;
+        width: 170px;
+    }
+    .weng .yiceng .tou .zuo .yao{
+        height: 40px;
+        line-height: 32px;
+        padding-right: 20px;  
+    }
+    .weng .yiceng .tou .zuo .xian{
+        margin-top: 10px;
+        width: 0px;
+        height: 20px;
+    }
+    .weng .yiceng .tou .zuo .yao span{
+        padding-bottom: 10px; 
+    }
+    .weng .yiceng .tou .zuo .shangh{
+        height: 40px;
+        line-height: 32px;
+        margin-left: 20px;
+        width: 80px;
+    }
+    .weng .yiceng .tou .you {
+        font-size: 18px;
+        line-height: 32px;
+        height: 40px;
+    }
+    .weng .yiceng .tou .you .shangh{
+        height: 40px;
+        font-size: 12px;
+    }
+    .weng .yiceng .tou .you .tupian{
+        font-size: 18px;
+        margin:5px 16px 0 10px;
+        width: 22px;
+        height: 40px;
+    }
+    .weng .yiceng .tou .you .du{
+        font-size: 20px;
+        height: 40px;
+        font-size: 12px;
+    }
+    .weng .nei .ding{
+        padding: 10px 0 5px 0;
+    }
+    .weng .nei .ding2:visited,.weng .nei .ding2:active,.weng .nei .ding2:link{
+        font-size: 15px;
+        margin-right: 20px;
+    }
+    .weng .nei .ding2:hover{
+        margin-right: 20px;
+    }
+    .weng .nei .ding a:visited,.weng .nei .ding a:active,.weng .nei .ding a:link{
+        font-size: 15px;
+    }
+    .weng .nei .ding1 a:visited,.weng .nei .ding1 a:active,.weng .nei .ding1 a:link{
+        font-size: 12px;
+    }
+    .weng .nei .ding5{
+        margin-left: 20px;
+        font-size: 12px;
+    }
+    .weng .nei{
+        line-height: 28px;
+    }
+    .weng .nei .di{
+        margin-top: 20px;
+    }
+    .weng .nei .di .tu img{
+        height:100px;
+        width: 160px;
+        border-radius: 4px;
+    }
+    .weng .nei .di .tu{
+        width: 150px;
+    }
+    .weng .nei .di .diweng{
+        line-height: 30px;
+        width: 160px;
+    }
+    .weng .nei .dingwei2{
+        bottom: -90px;
+        left: 5px;
+        width: 36px;
+        height: 32px;
+    }
+    .weng .nei .tua{
+        width: 160px;
+        height: 50px;
+    }
+    .weng .nei .tub{
+        margin-top: 25px;   
+        width: 160px;
+        height: 5px;
+    }
+    .weng .nei .tuc{
+        width:160px ;
+    }
+    .weng .nei .tuc img{
+        width:170px ;
+        border-radius: 4px;
+    }
+    .weng .nei .tuweng{
+        width:150px ;
+    }
+    .weng .nei .xiaodao{
+        height: 50px;
+    }
+    .weng .yiceng1 .shang{
+        width: 280px;
+        margin: 0;
+    }
+    .weng .yiceng1 .shang .tou1{
+        width: 280px;
+        height: 124px;
+    }
+    .weng .yiceng1 .shang .nei2{
+        width: 260px;
+        height: 30px;
+        padding: 0 10px ;
+    }
+    .weng .yiceng1 .shang .nei3{
+        width: 260px;
+        height: 30px;
+        padding: 0 10px ;
+    }
+    .weng .yiceng1 .shang .nei1{
+        width: 240px;
+        height: 30px;
+        margin-top: 5px;
+        line-height: 22px;
+        font-size: 10px;
+    }
+    .weng .yiceng1 .shang .nei1 .tur{
+        width: 20px;
+        top: 0px;
+        right: -25px;
+        height: 20px;
+    }
+    .weng .yiceng1 .shang .nei1 .tur1{
+        width: 20px;
+        top: 0px;
+        right: -25px;
+        height: 20px;
+    }
+    .weng .yiceng1 .shang .nei1 .tur2{
+        width: 20px;
+        top: 0px;
+        right: -25px;
+        height: 20px;
+    }
+    .weng .yiceng1 .shang .nei1 .tur3{
+        width: 20px;
+        top: 0px;
+        right: -25px;
+        height: 20px;
+    }
+    .weng .yiceng1 .shang .nei1 .rong1 a{
+        padding: 3px 10px;
+        border-radius: 12px;
+    }
+    .weng .yiceng1 .xia .tou{
+        width: 280px;
+        height: 40px;
+        margin-top: 10px;  
+    }
+    .weng .yiceng1 .xia .tou .zuo{
+        font-size: 18px;
+        height: 40px;
+        line-height: 32px;
+        padding-top: 5px;  
+        width: 60px;
+    }
+    .weng .yiceng1 .xia .tou .zuo span{
+        padding-bottom: 5px;
+    }
+    .weng .yiceng1 .xia .tou .you{
+        line-height: 44px;
+        font-size: 10px;
+        height: 44px;
+        width: 200px;
+        height: 44px;
+        padding-right: 5px;
+        padding-top: 5px;  
+    }
+    .weng .yiceng1 .xia .tou .you .qi{
+        padding-right: 5px;
+        font-size: 11px;
+    }
+    .weng .yiceng1 .xia .tou .you .guang{
+        padding-left: 5px;
+    }
+    .weng .yiceng1 .xia .tou .tujian{
+        width: 20px;
+        height: 20px;
+        right: 0px;
+        top: 17px;
+    }
+    .weng .yiceng1 .di{
+        margin-top: 25px;
+    }
+    .weng .yiceng1 .di img{
+        -webkit-border-radius: 4px;
+        width: 282px;
+        height: 200px;
+    }
+    .dao .daotiao .daohang span:hover{
+        padding: 5px;
+    }
+    .shang .kjian .dr:hover{
+        padding: 0px;
+    }
+    .weng  .yiceng1 .di .jdtu{
+        bottom: 40px;
+        left: 20px;
+        width: 36px;
+        height: 32px;
+    }
+    .weng  .yiceng1 .di .jdw{
+        left: 5px;
+        bottom: 0;
+        width: 100%;
+        padding: 5px 0 5px 15px;
+        font-size: 13px;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+    }
+}
